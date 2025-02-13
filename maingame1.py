@@ -82,7 +82,7 @@ ground_surface_scale = pygame.transform.scale(ground_surface, (800, 400))
 game_over_surface = pygame.image.load('img/gameover.png').convert(); 
 game_over_surface_scale = pygame.transform.scale(game_over_surface, (800,400)); 
 
-test_font = pygame.font.Font('Pixeltype.ttf', 50) 
+test_font = pygame.font.Font('fonts/Pixeltype.ttf', 50) 
 
 count = 0 
 game_over = True 
